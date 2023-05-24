@@ -1,0 +1,162 @@
+body{
+    background-image: linear-gradient(to right, aliceblue,rgb(2, 206, 2));
+    overflow: hidden;
+}
+.container{
+    overflow: hidden;
+    top: 0%;
+    right: 0%;
+    position: absolute;
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: end;
+}
+.acts{
+    position: relative;
+    top: 5%;
+}
+hr{
+    padding: 1px 300px;
+    position: relative;
+    background-color: aliceblue;
+    border: none;
+}
+h2{
+    top: 0%;
+    left: 40%;
+    font-size: 170%;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+}
+h3{
+    position: relative;
+    left: 20%;
+    font-size: 190%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+#img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+    left: 30%;
+    top: 0%;
+}
+.header{
+    background-color: transparent;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: end;
+}
+h1{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 230%;
+}
+h4{
+    position: relative;
+    top: 10%;
+    left: 40%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 130%;
+}
+@media all and (max-width: 444px){
+
+    body{
+        background-image: linear-gradient(to right, rgb(186, 247, 213),rgb(2, 206, 2));
+        overflow: hidden;
+    }
+    #img{
+        position: relative;
+        width: 120px;
+        height: 120px;
+        border-radius: 90%;
+        left: 35%;
+        top: 0%;
+    }
+    h2:hover{
+        background-color: none;
+    }
+    .header{
+        background-color: rgba(240, 248, 255, 0.32);
+        overflow: hidden;
+        top: 0%;
+        left: 0%;
+        position: absolute;
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+        align-items: end;
+    }
+    h1{
+        position: relative;
+        top: 60%;
+        left: 26%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(119, 119, 119);
+        font-size: 120%;
+    }
+    h4{
+        position: relative;
+        top: 10%;
+        left: 40%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(119, 119, 119);
+        font-size: 130%;
+    }
+
+
+    .container{
+        top: 40%;
+        left: 0%;
+        position: absolute;
+        background-color: rgba(240, 248, 255, 0.259);
+        width: 100%;
+        height: 60%;
+        justify-content: center;
+        align-items: end;
+    }
+    .acts{
+        position: relative;
+        top: 5%;
+    }
+    hr{
+        padding: 1px 300px;
+        position: relative;
+        background-color: aliceblue;
+        border: none;
+    }
+    h2{
+        top: 0%;
+        left: 40%;
+        font-size: 100%;
+        position: relative;
+        justify-content: end;
+        align-items: center;
+    }
+    h3{
+        position: relative;
+        left: 20%;
+        font-size: 120%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: aliceblue;
+    }
+ 
+ 
+
+
+
+}

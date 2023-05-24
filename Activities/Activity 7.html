@@ -1,0 +1,62 @@
+<style type="text/css">
+
+body {background-color: black;}
+
+img{
+    width:200px;
+    height: 180px;"
+}
+</style>
+<script>
+    document.addEventListener("keydown", function(event) {
+        if (event.code === "KeyW") {
+            move_picture("up");
+        } else if (event.code === "KeyZ") {
+            move_picture("down");
+        } else if (event.code === "KeyA") {
+            move_picture("left");
+        } else if (event.code === "KeyD") {
+            move_picture("right");
+        }
+    });
+
+    function move_picture(d)
+    {
+        if(d=='right')
+        {
+            document.getElementById('box').innerHTML='<img src=borange.gif />';
+                position=document.getElementById('box').style.left;
+                left_value=position.substring(0,position.length-2);
+                left_value=parseInt(left_value)+100;
+                document.getElementById('box').style.left=left_value+"px";
+        }
+        if(d=='left')
+        {
+            document.getElementById('box').innerHTML='<img src="borange.gif" />';
+                position=document.getElementById('box').style.left;
+                left_value=position.substring(0,position.length-2);
+                left_value=parseInt(left_value)-100;
+                document.getElementById('box').style.left=left_value+"px";
+        }
+        if(d=='down')
+        {
+             document.getElementById('box').innerHTML='<img src="borange.gif" />';
+                position=document.getElementById('box').style.top;
+                top_value=position.substring(0,position.length-2);
+                top_value=parseInt(top_value)+100;
+                document.getElementById('box').style.top=top_value+"px";
+        }
+        if(d=='up')
+        {
+             document.getElementById('box').innerHTML='<img src="borange.gif" />';
+                position=document.getElementById('box').style.top;
+                top_value=position.substring(0,position.length-2);
+                top_value=parseInt(top_value)-100;
+                document.getElementById('box').style.top=top_value+"px";
+        }
+    }
+</script>
+
+<div id=box style="top: 200px; left: 650px; position: absolute">
+    <img src="borange.gif"  />
+</div>
